@@ -1,4 +1,5 @@
 import { Button } from '@/components/ui/button'
+import Projectcard from './projects/_components/project-card'
 
 
 export default function Page() {
@@ -7,6 +8,7 @@ export default function Page() {
       <Button variant="connectwallet">Connect wallet</Button>
       <Button variant="upcomingsales">Upcoming Sales</Button>
       <Button variant="subscribe">Subscribe</Button>
+      <Projectcard/>
     </div>
   )
 }
