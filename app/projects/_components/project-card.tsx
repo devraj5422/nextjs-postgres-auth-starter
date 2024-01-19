@@ -11,7 +11,7 @@ import Image from 'next/image'
 
 const Projectcard = () => {
   return (
-    <Card className="relative bg-[#232639] border-purple-300">
+    <Card className="relative bg-[#232639] border-purple-300 w-[300px]">
       <Image
         src="https://fastly.picsum.photos/id/757/600/400.jpg?hmac=rAOVQk19ZLQQsGTifnZgKPlQg9hjj9V-2xXJEw0N7V8"
         alt=""

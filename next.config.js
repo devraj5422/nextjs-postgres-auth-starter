@@ -3,6 +3,7 @@ const nextConfig = {
     images: {
       domains: [
         "fastly.picsum.photos",
+        "polkastarter.com"
       ],
     },
     webpack: (config) => {
